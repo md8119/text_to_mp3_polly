@@ -19,15 +19,13 @@ public class Main {
 
         // Create instance of TextEditorPanel
         TextEditorPanel textEditorPanel = new TextEditorPanel();
+        // Create instance of MarkedTextListPanel
+        MarkedTextListPanel markedTextListPanel = new MarkedTextListPanel();
 
 
         // Create the action panel
         JPanel actionPanel = new JPanel();
         actionPanel.setPreferredSize(new Dimension(200, 400));
-
-        // Create the marked text list panel
-        JPanel markedTextListPanel = new JPanel();
-        markedTextListPanel.setPreferredSize(new Dimension(600,200));
 
         // Split the main area and the marked text list
         JSplitPane splitPaneVertical = new JSplitPane(JSplitPane.VERTICAL_SPLIT, textEditorPanel, markedTextListPanel);
