@@ -17,9 +17,9 @@ public class Main {
         mainFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         mainFrame.setLayout(new BorderLayout());
 
-        // Create the text editor panel
-        JPanel textEditorPanel = new JPanel();
-        textEditorPanel.setPreferredSize(new Dimension(600,400));
+        // Create instance of TextEditorPanel
+        TextEditorPanel textEditorPanel = new TextEditorPanel();
+
 
         // Create the action panel
         JPanel actionPanel = new JPanel();
